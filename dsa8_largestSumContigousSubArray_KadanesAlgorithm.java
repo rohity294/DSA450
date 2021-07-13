@@ -3,7 +3,8 @@ package dsa450;
 public class dsa8_largestSumContigousSubArray_KadanesAlgorithm {
     public static void main(String args[]) {
 //        int[] input = {1, -3, 2, 1, 4, -1};
-        int[] input = {-2, 1, 2, 4, -11, 6};
+//        int[] input = {-2, 1, 2, 4, -11, 6};
+        int[] input = {1,2,3,-2,5};
         //int result = myBruteForce(input);
         int result = myKadane(input);
         System.out.println(result);
